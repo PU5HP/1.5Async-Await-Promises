@@ -35,33 +35,36 @@ set timeout async func has printed this:
 
 
 //promise then syntax
-/*function kiratAsyncFunction(){
+function kiratAsyncFunction(){
     
     let p = new Promise(function(resolve) {
         //do some async here
         setTimeout(function () {
             console.log("set timeout async func has printed this:");
-        },1000)
-
+        },10000)
+    
         resolve("data is here!!!");
+        
     });
     
     return p;
 }
 
 function main(){
+    
     kiratAsyncFunction().then(function(value){
         console.log(value);
     })
+   
 }
 
 main();
-*/
+
 
 //async await syntax
 
 
-function kiratAsyncFunction(){
+/*function kiratAsyncFunction(){
     
     let p = new Promise(function(resolve) {
         //do some async here
@@ -80,4 +83,4 @@ async function main(){
     console.log(value);
 }
 
-main();
+main();*/
