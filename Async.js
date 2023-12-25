@@ -5,8 +5,8 @@ function sum (a,b){
     console.log("inside sum:");
     return (a+b);
 }
-console.log("sum is: "+sum(10,34));
-console.log("hello world");
+//console.log("sum is: "+sum(10,34));
+console.log("hello world 1");
 
 //sync func end here
 
